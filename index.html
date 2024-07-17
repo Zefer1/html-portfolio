@@ -1,83 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #6c757d;
+        }
+
+        .text-center h1 {
+            font-family: 'Helvetica', sans-serif;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        h2 {
+            color: #343a40;
+            margin-top: 30px;
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+        }
+
+        h3 {
+            color: #007bff;
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+        }
+
+        h4 {
+            color: #6c757d;
+        }
+
+        hr {
+            border-top: 2px solid #007bff;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 10px 0;
+            background-color: #343a40;
+            color: #fff;
+        }
+
+        .btn-primary, .btn-secondary {
+            margin: 5px 0;
+        }
+
+        .list-group-item {
+            background-color: #f8f9fa;
+            border: none;
+            padding: 0;
+        }
+    </style>
 </head>
+
 <body>
-    
-    <h1>José Fernandes</h1>
-    
-    <img src="./1670599371511.jpeg" alt="José Fernandes">
-    
-    <h1>Summary</h1>
-    
-    <p>Proficient in diverse roles acrosshospitality, real estate, 
-        languageservices, and education. Skilled in guestrelations, property marketing,translation, and language instruction.Fluent in English, Portuguese, andSpanish,
-     with web developmentexpertise in HTML/CSS, JavaScript, andNode.js.</p>
-     <hr>
-    
-     <h1>Education</h1>
-   
-    <ul>
-        <li>Bachelor's Degree in Linguistics andForeign Cultures in Instituto Politécnico do Porto 2014 - 2017 </li>
-        <li>Erasmus+ exchange program at theUniversity of Marie Curie Sklodowskain Lublin, Poland. (September 2016 -February 2017)</li>
-    </ul>
-    <h1>Work Experience</h1>
-    
-    <h2>5* Hotel ReceptionistEnglish</h2>
-    
-    <h3>2017Pestana Casino Park Hotel|2018 - 2019</h3>
-    
-    <ul>
-        <li>Handled guest concerns and complaints witheffective communication and problem-solvingskills, ensuring guest satisfaction.</li>
-        <li>Managed high-volume check-ins and check-outs, while staying organized and providingpersonalized service to each guest despite thefast-paced environment.</li>
-    </ul>
-    
-    <h2>Real Estate Agent</h2>
 
-    <h3>ERA Funchal Sé| 2019 - 2022</h3>
-    
-    <ul>
-        <li>Marketed properties effectively through listings,photography, and diverse channels to attractpotential buyers or tenants.</li>
-        <li>Facilitated transactions by negotiating terms, coordinating viewings, handling paperwork, and ensuring legal compliance, ensuring smooth porperty transactions.</li>
-    </ul>
+    <div class="container">
+        <div class="text-center">
+            <img src="./1670599371511.jpeg" alt="José Fernandes" class="profile-img mx-auto d-block">
+            <h1>José Fernandes</h1>
+        </div>
 
-    <h2>Interpreter/Translator ENG-PT; PT-ENGEnglish</h2>
+        <h2>Summary</h2>
+        <p>Proficient in diverse roles across hospitality, real estate, language services, and education. Skilled in guest relations, property marketing, translation, and language instruction. Fluent in English, Portuguese, and Spanish, with web development expertise in HTML/CSS, JavaScript, and Node.js.</p>
+        <hr>
 
-    <h3>DeltaSom Madeira | 2022-2023</h3>
-    <ul>
-        <li>Accurately conveyed spoken or signed messages between parties who spoke different languages or used different sign languages.</li>
-        <li>Maintained cultural sensivity and understanding to ensure effective communication across linguisitc and cultural barriers.</li>
-    </ul>
-    <h1>Skills</h1>
-    <ul>
-        <li>English proficiency level - C2</li>
-        <li>Spanish proficiency level - C1</li>
-        <li>Language Proficiency: Fluent in Portuguese and English with advanced proficiency in translation and Interpretation.</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>Bootstrap</li>
-        <li>Excel</li>
-        <li>Microsoft Word</li>
-    </ul>
+        <h2>Education</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Bachelor's Degree in Linguistics and Foreign Cultures in Instituto Politécnico do Porto 2014 - 2017</li>
+            <li class="list-group-item">Erasmus+ exchange program at the University of Marie Curie Sklodowska in Lublin, Poland. (September 2016 - February 2017)</li>
+        </ul>
+        <hr>
 
-    <h1>Awards and Certifications</h1>
-<ul>
-    <li>Ranked 19th out of 1,200 in ERA's Best Rookie Real Estate Agent in 2020</li>
-</ul>
+        <h2>Work Experience</h2>
 
-<h1>Other</h1>
-<ul>
-    <li><a href="./Hobbies.html">Hobbies</a></li>
-    <li><a href="./Contact.html">Contact me</a></li>
-</ul>
+        <h3>5* Hotel Receptionist English</h3>
+        <h4>Pestana Casino Park Hotel | 2018 - 2019</h4>
+        <ul class="list-group">
+            <li class="list-group-item">Handled guest concerns and complaints with effective communication and problem-solving skills, ensuring guest satisfaction.</li>
+            <li class="list-group-item">Managed high-volume check-ins and check-outs, while staying organized and providing personalized service to each guest despite the fast-paced environment.</li>
+        </ul>
 
-<footer>
-    <p>© José Fernandes. All rights reserved.</p>
-</footer>
+        <h3>Real Estate Agent</h3>
+        <h4>ERA Funchal Sé | 2019 - 2022</h4>
+        <ul class="list-group">
+            <li class="list-group-item">Marketed properties effectively through listings, photography, and diverse channels to attract potential buyers or tenants.</li>
+            <li class="list-group-item">Facilitated transactions by negotiating terms, coordinating viewings, handling paperwork, and ensuring legal compliance, ensuring smooth property transactions.</li>
+        </ul>
 
+        <h3>Interpreter/Translator ENG-PT; PT-ENG English</h3>
+        <h4>DeltaSom Madeira | 2022-2023</h4>
+        <ul class="list-group">
+            <li class="list-group-item">Accurately conveyed spoken or signed messages between parties who spoke different languages or used different sign languages.</li>
+            <li class="list-group-item">Maintained cultural sensitivity and understanding to ensure effective communication across linguistic and cultural barriers.</li>
+        </ul>
+        <hr>
+
+        <h2>Skills</h2>
+        <ul class="list-group">
+            <li class="list-group-item">English proficiency level - C2</li>
+            <li class="list-group-item">Spanish proficiency level - C1</li>
+            <li class="list-group-item">Language Proficiency: Fluent in Portuguese and English with advanced proficiency in translation and Interpretation.</li>
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">JavaScript</li>
+            <li class="list-group-item">Bootstrap</li>
+            <li class="list-group-item">Excel</li>
+            <li class="list-group-item">Microsoft Word</li>
+        </ul>
+        <hr>
+
+        <h2>Awards and Certifications</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Ranked 19th out of 1,200 in ERA's Best Rookie Real Estate Agent in 2020</li>
+        </ul>
+        <hr>
+
+        <h2>Other</h2>
+        <div class="text-center">
+            <a href="./Hobbies.html" class="btn btn-primary">Hobbies</a>
+            <a href="./Contact.html" class="btn btn-secondary">Contact me</a>
+        </div>
+
+        <footer class="text-center">
+            <p>© José Fernandes. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
